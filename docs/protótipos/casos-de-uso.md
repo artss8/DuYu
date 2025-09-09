@@ -1,2 +1,2 @@
-![casos-de-uso](../pictures/Casos-de-Uso.png)
+![casos-de-uso](../pictures/casos-de-uso.png)
 
