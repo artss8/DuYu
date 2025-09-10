@@ -1,2 +1,3 @@
 ![Fluxograma](../pictures/Fluxograma.jpg)
-[Voltar à página do projeto](../..)
+[⟵ Voltar ao README](../../README.md)
+
