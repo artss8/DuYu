@@ -35,10 +35,10 @@ Entregar um app de checklist que permita organizar responsabilidades, priorizar 
 
 ## Modelagem e Fluxos
 - Casos de Uso (UML): [`docs/protótipos/casos-de-uso.md`](docs/protótipos/casos-de-uso.md)  
-  ![Casos de Uso](docs/pictures/Casos%20de%20Uso.png)
+  ![Casos de Uso](docs/pictures/casos-de-uso.png)
 
 - **Diagrama de Sequência (UML):** [`docs/protótipos/sequencia.md`](docs/protótipos/sequencia.md)  
-  ![Diagrama de Sequência](docs/pictures/Diagrama%20de%20Sequência.jpg)
+  ![Diagrama de Sequência](docs/pictures/sequencia.jpg)
 
 - **Fluxograma do usuário:** [`docs/protótipos/fluxograma.md`](docs/protótipos/fluxograma.md)  
   ![Fluxograma](docs/pictures/Fluxograma.jpg)
@@ -47,7 +47,7 @@ Entregar um app de checklist que permita organizar responsabilidades, priorizar 
 
 ## Backlog
 Planejamento por prioridades e etapas do projeto:  
-[`docs/backlog.md`](docs/backlog.md)
+![Backlog](docs/pictures/backlog.jpg)
 
 ---
 
