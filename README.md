@@ -51,6 +51,13 @@ Planejamento por prioridades e etapas do projeto:
 
 ---
 
+## Telas do app (Figma)
+
+![DuYu — tela de login](docs/pictures/duyu-login.jpeg)
+![DuYu — tela interna](docs/pictures/duyu-interno.png)
+
+---
+
 ## Visão técnica (proposta)
 - Front-end: Web responsivo.
 - API (REST): checklists, itens, convites, notificações.
@@ -66,6 +73,3 @@ Planejamento por prioridades e etapas do projeto:
 - ✅ Fluxograma
 - ✅ Backlog
 - ⏳ Implementação técnica (planejamento)
-
----
-
