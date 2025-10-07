@@ -1,4 +1,5 @@
 # DuYu — App de Checklist
+Integrantes: Arthur S., Enzo M., Lowan T., Lucas S. e Manassés Z. <br>
 O **DuYu** é um aplicativo de checklist simples e colaborativo para criar listas, priorizar atividades, receber lembretes e compartilhar com outras pessoas.
 
 ---
@@ -7,7 +8,7 @@ O **DuYu** é um aplicativo de checklist simples e colaborativo para criar lista
 
 - [→ Ir para a página do Fluxograma](docs/protótipos/fluxograma.md)
 - [→ Ir para a página de Casos de Uso (UML)](docs/protótipos/casos-de-uso.md)
-- [→ Ir para a página do Diagrama de Sequência (UML)](docs/protótipos/sequencia.md)
+- [→ Ir para a página dos Diagramas de Sequência (UML)](docs/protótipos/sequencia.md)
 - [→ Ir para a página de Histórias de Usuário](docs/protótipos/historias-de-usuario.md)
 - [→ Ir para o Backlog](docs/backlog.md)
   
@@ -38,7 +39,12 @@ Entregar um app de checklist que permita organizar responsabilidades, priorizar 
   ![Casos de Uso](docs/pictures/casos-de-uso.png)
 
 - **Diagrama de Sequência (UML):** [`docs/protótipos/sequencia.md`](docs/protótipos/sequencia.md)  
-  ![Diagrama de Sequência](docs/pictures/sequencia.jpg)
+  ![sequencia](docs/pictures/DS_Cadastro.png)
+  ![sequencia](docs/pictures/DS_Compartilhamento.png)
+  ![sequencia](docs/pictures/DS_CriarChecklist.png)
+  ![sequencia](docs/pictures/DS_GerenciarPrioridade.png)
+  ![sequencia](docs/pictures/DS_LogCleaner.png)
+  ![sequencia](docs/pictures/DS_Login.png)
 
 - **Fluxograma do usuário:** [`docs/protótipos/fluxograma.md`](docs/protótipos/fluxograma.md)  
   ![Fluxograma](docs/pictures/Fluxograma.jpg)
@@ -52,24 +58,7 @@ Planejamento por prioridades e etapas do projeto:
 ---
 
 ## Telas do app (Figma)
-
-![DuYu — tela de login](docs/pictures/duyu-login.jpeg)
-![DuYu — tela interna](docs/pictures/duyu-interno.png)
+Link: https://www.figma.com/make/S1HP6Y5hbNzYachz7UF8ov/Website-Design-for-DuYu?node-id=0-1&p=f&t=40PEw6RlGv4mvHXJ-0
 
 ---
 
-## Visão técnica (proposta)
-- Front-end: Web responsivo.
-- API (REST): checklists, itens, convites, notificações.
-- Banco de Dados: relacional.
-- Serviço de E-mail: disparo de lembretes.
-- Autenticação: serviço dedicado.
-
----
-
-## Status
-- ✅ Protótipos e documentação inicial
-- ✅ UML (Casos de Uso e Sequência)
-- ✅ Fluxograma
-- ✅ Backlog
-- ⏳ Implementação técnica (planejamento)
