@@ -46,7 +46,8 @@ Entregar um app de checklist que permita organizar responsabilidades, priorizar 
   ![sequencia](docs/pictures/DS_Login.png)
 
 - **Fluxograma do usuário:** [`docs/protótipos/fluxograma.md`](docs/protótipos/fluxograma.md)  
-  ![Fluxograma](docs/pictures/Fluxograma.jpg)
+  ![Fluxograma](docs/pictures/Fluxograma(1).jpg)
+  ![Fluxograma](docs/pictures/Fluxograma(2).jpg)
 
 ---
 
