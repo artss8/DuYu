@@ -1,3 +1,7 @@
-![sequencia](../pictures/sequenciajpg)
-
+![sequencia](../pictures/DS_Cadastro.png)
+![sequencia](../pictures/DS_Compartilhamento.png)
+![sequencia](../pictures/DS_CriarChecklist.png)
+![sequencia](../pictures/DS_GerenciarPrioridade.png)
+![sequencia](../pictures/DS_LogCleaner.png)
+![sequencia](../pictures/DS_Login.png)
 [Voltar à página do projeto](../..)
