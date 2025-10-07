@@ -19,6 +19,10 @@ Entregar um app de checklist que permita organizar responsabilidades, priorizar 
 
 ---
 
+## Dados de Custo 
+aqui vai a parte dos dados e pa e é isso mano
+
+---
 ## Funcionalidades do DuYu
 - Criar e gerenciar múltiplas checklists.
 - Autenticação: criar conta e fazer login.
