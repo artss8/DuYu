@@ -18,11 +18,6 @@ O **DuYu** é um aplicativo de checklist simples e colaborativo para criar lista
 Entregar um app de checklist que permita organizar responsabilidades, priorizar o que é importante e não perder prazos.
 
 ---
-
-## Dados de Custo 
-aqui vai a parte dos dados e pa e é isso mano
-
----
 ## Funcionalidades do DuYu
 - Criar e gerenciar múltiplas checklists.
 - Autenticação: criar conta e fazer login.
