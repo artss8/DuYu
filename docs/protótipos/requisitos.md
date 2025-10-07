@@ -12,3 +12,7 @@
 * **Qualidade e Manutenção** — **testes** dos fluxos principais (login, CRUD, Kanban, e-mail); **lint/format + review**; **deploy** sem cair e **rollback ≤ 10 min**.
 * **E-mails e Notificações** — configurar **SPF/DKIM**; evitar **e-mails duplicados**; todo e-mail com **link de descadastro**.
 * **Dados** — **regras no banco** para evitar dados quebrados; **histórico simples** (quem mudou o quê e quando); **logs** por **90 dias**.
+
+## Método de Teste de Requisitos Não Funcionais 
+
+**Realizamos uma bateria de testes não funcionais utilizando o Apache JMeter para orquestrar e medir cenários de carga, desempenho, concorrência e comportamentos críticos do back-end e fluxos principais do produto. Todos os requisitos listados abaixo foram considerados no planejamento e testados adequadamente em ambiente de homologação, com registros de execução e evidências arquivadas.**
