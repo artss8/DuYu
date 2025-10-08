@@ -77,8 +77,11 @@ Entregar um app de checklist que permita organizar responsabilidades, priorizar 
 Organização do projeto:
 ![Backlog](docs/pictures/Screenshot_6.png)
 
----
 
+---
+## WireFrame
+![Wireframe](docs/pictures/wireframe.png)
+---
 ## Telas do app (Figma)
 Link: https://www.figma.com/make/S1HP6Y5hbNzYachz7UF8ov/Website-Design-for-DuYu?fullscreen=1
 
