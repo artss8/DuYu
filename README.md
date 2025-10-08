@@ -10,6 +10,7 @@ O **DuYu** é um aplicativo de checklist simples e colaborativo para criar lista
 - [→ Ir para a página de Casos de Uso (UML)](docs/protótipos/casos-de-uso.md)
 - [→ Ir para a página dos Diagramas de Sequência (UML)](docs/protótipos/sequencia.md)
 - [→ Ir para a página de Histórias de Usuário](docs/protótipos/historias-de-usuario.md)
+- [→ Ir para a página de Requisitos Não Funcionais](docs/protótipos/requisitos.md)
 - [→ Ir para o Backlog](docs/pictures/backlog.md)
   
 ---
