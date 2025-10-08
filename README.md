@@ -59,6 +59,7 @@ Organização do projeto:
 
 ## Telas do app (Figma)
 Link: https://www.figma.com/make/S1HP6Y5hbNzYachz7UF8ov/Website-Design-for-DuYu?node-id=0-1&p=f&t=SpvWGM8qKOTfohGf-0&fullscreen=1
+https://www.figma.com/make/S1HP6Y5hbNzYachz7UF8ov/Website-Design-for-DuYu?node-id=0-1&t=CXMzyTvK6oay9YrR-1
 
 ---
 
