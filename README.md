@@ -1,161 +1,187 @@
 # DuYu — App de Checklist
-Integrantes: Arthur S., Enzo M., Lowan T., Lucas S. e Manassés Z. <br>
+
+Integrantes: Arthur S., Enzo M., Lowan T., Lucas S. e Manassés Z.
 O **DuYu** é um aplicativo de checklist simples e colaborativo para criar listas, priorizar atividades, receber lembretes e compartilhar com outras pessoas.
 
 ---
 
-
 ## Planejamento do Projeto DuYu para Investidores-Anjo (5W2H e Cronograma de Entregas)
 
-1. **Visão Geral do Projeto DuYu**  
+1. **Visão Geral do Projeto DuYu**
    O DuYu é um aplicativo web de checklist simples e colaborativo que permite:
 
-   - Criar e gerenciar múltiplas listas de tarefas;
-   - Priorizar atividades (alta/média/baixa);
-   - Visualizar tarefas em Kanban (pendente / em andamento / concluído);
-   - Receber notificações por e-mail próximas do prazo final;
-   - Compartilhar checklists com outras pessoas (perfis de dono/editor/leitor);
-   - Personalizar a experiência por meio de temas de cores.
+   * Criar e gerenciar múltiplas listas de tarefas;
+   * Priorizar atividades (alta/média/baixa);
+   * Visualizar tarefas em Kanban (pendente / em andamento / concluído);
+   * Receber notificações por e-mail próximas do prazo final;
+   * Compartilhar checklists com outras pessoas (perfis de dono/editor/leitor);
+   * Personalizar a experiência por meio de temas de cores.
 
    Time atual: Arthur S., Enzo M., Lowan T., Lucas S. e Manassés Z.
 
 ---
 
-2. **Planejamento 5W2H do DuYu**  
+## 2. Planejamento 5W2H do DuYu
 
-   **2.1 Tabela 5W2H**
+### 2.1 Tabela 5W2H
 
-   | 5W2H     | Pergunta                                     | Resposta para o DuYu                                                                                                               |
-   | -------- | -------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------- |
-   | What     | O que será feito?                            | Desenvolvimento do DuYu, um app web de checklist colaborativo com Kanban, prioridades, notificações e compartilhamento.            |
-   | Why      | Por que será feito?                          | Ajudar pessoas e equipes a organizar responsabilidades, evitar esquecer tarefas importantes e não perder prazos.                   |
-   | Where    | Onde será feito e usado?                     | Desenvolvimento remoto pelo time (online), deploy em nuvem; uso via navegador (desktop e mobile).                                  |
-   | When     | Quando será feito e quais marcos de entrega? | Ciclo inicial de 6 meses, com entregas parciais (MVP, Kanban, compartilhamento, testes não funcionais).                            |
-   | Who      | Quem está envolvido?                         | Time de 5 integrantes (devs, UI/UX, QA), professores, possíveis usuários-teste e investidores-anjo (Anjos do Brasil).              |
-   | How      | Como será feito (método e tecnologia)?       | Desenvolvimento incremental (estilo ágil), backend + frontend separados, integração contínua, testes, monitoramento.               |
-   | How much | Quanto vai custar (estimativa)?              | Investimento estimado em R$ 60.000,00 para 6 meses (bolsas para o time, infraestrutura em nuvem, ferramentas e marketing inicial). |
+| 5W2H     | Pergunta                                     | Resposta para o DuYu                                                                                                                                                              |
+| -------- | -------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| What     | O que será feito?                            | Desenvolvimento do DuYu, um app web de checklist colaborativo com Kanban, prioridades, notificações e compartilhamento.                                                           |
+| Why      | Por que será feito?                          | Ajudar pessoas e equipes a organizar responsabilidades, evitar esquecer tarefas importantes e não perder prazos.                                                                  |
+| Where    | Onde será feito e usado?                     | Desenvolvimento remoto pelo time (online), deploy em nuvem; uso via navegador (desktop e mobile).                                                                                 |
+| When     | Quando será feito e quais marcos de entrega? | Ciclo previsto entre **6 e 10 meses** (mínimo 6 meses de desenvolvimento ativo, com possibilidade de se estender até 10 meses em caso de pendências), com entregas parciais.      |
+| Who      | Quem está envolvido?                         | Time de 5 integrantes (devs, UI/UX, QA), professores, possíveis usuários-teste e investidores-anjo (Anjos do Brasil).                                                             |
+| How      | Como será feito (método e tecnologia)?       | Desenvolvimento incremental (estilo ágil), backend + frontend separados, integração contínua, testes, monitoramento.                                                              |
+| How much | Quanto vai custar (estimativa)?              | Investimento estimado em **R$ 80.000,00** para 6 a 10 meses (bolsas para o time, infraestrutura em nuvem, ferramentas e marketing inicial, com reserva para riscos/contingência). |
 
-   **2.2 Detalhando cada ponto**
+### 2.2 Detalhando cada ponto
 
-   **What — O que será entregue?**
+#### What — O que será entregue?
 
-   - Produto principal: Aplicativo web DuYu com:
-     - Cadastro/login de usuários;
-     - CRUD de checklists e itens;
-     - Kanban de atividades (pendente/em curso/concluído);
-     - Prioridade por atividade (alta/média/baixa);
-     - Notificações por e-mail próximas ao prazo final;
-     - Compartilhamento de checklists com permissão de dono / editor / leitor;
-     - Temas de cores;
-     - Filtros e ordenações por status, prioridade e prazo.
-   - Documentos:
-     - Casos de uso, diagramas de sequência, fluxograma do usuário (já iniciados);
-     - Backlog priorizado;
-     - Planejamento 5W2H;
-     - Evidências de testes não funcionais (JMeter).
+* **Produto principal: Aplicativo web DuYu** com:
 
-   **Why — Por que o DuYu existe?**
+  * Cadastro/login de usuários;
+  * CRUD de checklists e itens;
+  * Kanban de atividades (pendente/em curso/concluído);
+  * Prioridade por atividade (alta/média/baixa);
+  * Notificações por e-mail próximas ao prazo final;
+  * Compartilhamento de checklists com permissão de dono / editor / leitor;
+  * Temas de cores;
+  * Filtros e ordenações por status, prioridade e prazo.
+* **Documentos:**
 
-   - As pessoas têm várias responsabilidades (faculdade, trabalho, projetos, vida pessoal) e acabam:
-     - Esquecendo prazos,
-     - Perdendo o controle de tarefas,
-     - Não conseguindo priorizar o que é mais importante.
-   - Ferramentas atuais ou são muito complexas ou não são colaborativas o suficiente.
-   - O DuYu busca ser:
-     - Simples de usar,
-     - Colaborativo,
-     - E com foco em prioridade + prazos + notificações.
+  * Casos de uso, diagramas de sequência, fluxograma do usuário (já iniciados);
+  * Backlog priorizado;
+  * Planejamento 5W2H;
+  * Evidências de testes não funcionais (JMeter).
 
-   **Where — Onde será feito e utilizado?**
+#### Why — Por que o DuYu existe?
 
-   - Desenvolvimento:
-     - Equipe trabalhando de forma flexível (desenvolvimento remoto e presencial), coordenando tudo via GitHub, reuniões e ferramentas de comunicação (Discord/WhatsApp).
-   - Uso:
-     - Acessado via aplicativo para celular;
+* As pessoas têm várias responsabilidades (faculdade, trabalho, projetos, vida pessoal) e acabam:
 
----
+  * Esquecendo prazos;
+  * Perdendo o controle de tarefas;
+  * Não conseguindo priorizar o que é mais importante.
+* Ferramentas atuais ou são muito complexas ou não são colaborativas o suficiente.
+* O DuYu busca ser:
 
-### When — Cronograma
+  * Simples de usar;
+  * Colaborativo;
+  * Focado em **prioridade + prazos + notificações**.
 
-**Etapa 1 — Kickoff, Alinhamento e Planejamento Detalhado**  
-Período: 1 semana e meia  
-Entregas:
+#### Where — Onde será feito e utilizado?
 
-- Documento 5W2H finalizado e revisado;
-- Backlog inicial no GitHub Projects (histórias de usuário e prioridades);
-- Definição de papéis e responsabilidades por integrante;
-- Ajuste do Figma.
+* **Desenvolvimento:**
+
+  * Equipe trabalhando de forma flexível (desenvolvimento remoto e presencial), coordenando tudo via GitHub, reuniões e ferramentas de comunicação (Discord/WhatsApp).
+* **Uso:**
+
+  * Acessado via navegador em desktop e dispositivos móveis (responsivo / PWA).
 
 ---
 
-**Etapa 2 — MVP Funcional (Autenticação + Checklists Básicas)**  
-Período: 2 meses  
-Entregas:
+## 3. When — Cronograma
 
-- Backend com:
-  - API de autenticação (criar conta, login, recuperação de senha);
-  - API CRUD de checklists e itens;
-- Frontend com:
-  - Telas de login/cadastro;
-  - Tela de listagem de checklists;
-  - Tela de visualização/edição de checklist (lista simples, sem Kanban ainda);
-- Banco de dados com regras mínimas para integridade (chaves, campos obrigatórios, etc.);
-- Deploy inicial em ambiente de homologação (para testes internos da equipe).
+> **Prazo global do projeto:**
+>
+> * **Tempo mínimo:** 6 meses (se tudo for entregue conforme o cronograma base);
+> * **Tempo máximo:** até 10 meses (cenário hipotético com atraso de algumas pendências), **sem alterar a ordem das etapas**.
 
----
+### Etapa 1 — Kickoff, Alinhamento e Planejamento Detalhado
 
-**Etapa 3 — Dashboard Kanban + Prioridades + Temas**  
-Período: 1 mês  
-Entregas:
+**Período:** 1 semana e meia
+**Entregas:**
 
-- Kanban com colunas Pendente / Em curso / Concluído;
-- Definição e implementação das prioridades (alta/média/baixa) com:
-  - Ícones/símbolos + cores (para respeitar acessibilidade);
-- Suporte a escolha de temas de cores no app;
-- Testes de usabilidade básicos com alguns usuários (colegas, amigos);
-- Ajustes visuais com base no Figma.
+* Documento 5W2H finalizado e revisado;
+* Backlog inicial no GitHub Projects (histórias de usuário e prioridades);
+* Definição de papéis e responsabilidades por integrante;
+* Ajuste do Figma.
 
 ---
 
-**Etapa 4 — Compartilhamento de Checklists + Notificações por E-mail**  
-Período: 1 mês  
-Entregas:
+### Etapa 2 — MVP Funcional (Autenticação + Checklists Básicas)
 
-- Módulo de compartilhamento:
-  - Dono pode convidar usuários;
-  - Perfis: dono / editor / leitor;
-- Notificações por e-mail:
-  - Envio de lembretes próximos ao prazo final;
-  - Configuração de SPF/DKIM (ao menos conceitual/descrita, se não for implementado de fato);
-- Garantir:
-  - Links de descadastro em todos os e-mails;
-  - Evitar envios duplicados na mesma janela de tempo.
+**Período:** 2 meses
+**Entregas:**
+
+* **Backend** com:
+
+  * API de autenticação (criar conta, login, recuperação de senha);
+  * API CRUD de checklists e itens;
+* **Frontend** com:
+
+  * Telas de login/cadastro;
+  * Tela de listagem de checklists;
+  * Tela de visualização/edição de checklist (lista simples, sem Kanban ainda);
+* Banco de dados com regras mínimas para integridade (chaves, campos obrigatórios, etc.);
+* Deploy inicial em ambiente de homologação (para testes internos da equipe).
 
 ---
 
-**Etapa 5 — Testes Não Funcionais, Monitoramento e Ajustes Finais**  
-Período: 1 semana e meia  
-Entregas:
+### Etapa 3 — Dashboard Kanban + Prioridades + Temas
 
-- Plano de testes não funcionais (desempenho, confiabilidade, segurança, etc.);
-- Execução de testes com JMeter:
-  - Cenários de carga;
-  - Medição dos tempos;
-- Logs e monitoramento:
-  - Registro de ações relevantes (data/hora + usuário + ação);
-  - Métricas de tempo de resposta e taxa de erros;
+**Período:** 1 mês
+**Entregas:**
+
+* Kanban com colunas **Pendente / Em curso / Concluído**;
+* Definição e implementação das prioridades (alta/média/baixa) com:
+
+  * Ícones/símbolos + cores (respeitando acessibilidade);
+* Suporte a escolha de **temas de cores** no app;
+* Testes de usabilidade básicos com alguns usuários (colegas, amigos);
+* Ajustes visuais com base no Figma.
+
 ---
 
-**Etapa 6 — Lançamento, Marketing Inicial e Suporte Assistido**  
-Período: 1 mês  
-Entregas:
+### Etapa 4 — Compartilhamento de Checklists + Notificações por E-mail
 
-- Lançamento público controlado (beta aberta) do DuYu;
-- Landing page do produto com foco em captação de usuários;
-- Primeiras ações de marketing (divulgação em redes sociais, grupos acadêmicos e comunidades);
-- Acompanhamento de métricas-chave (usuários ativos, listas criadas, engajamento);
-- Coleta e registro de feedbacks dos usuários em backlog priorizado;
-- Suporte assistido à operação (correção de bugs, pequenos ajustes de UX e melhorias rápidas).
+**Período:** 1 mês
+**Entregas:**
+
+* **Módulo de compartilhamento:**
+
+  * Dono pode convidar usuários;
+  * Perfis: dono / editor / leitor;
+* **Notificações por e-mail:**
+
+  * Envio de lembretes próximos ao prazo final;
+  * Configuração de SPF/DKIM (ao menos conceitual/descrita, se não for implementado de fato);
+* Garantir:
+
+  * Links de descadastro em todos os e-mails;
+  * Evitar envios duplicados na mesma janela de tempo.
+
+---
+
+### Etapa 5 — Testes Não Funcionais, Monitoramento e Ajustes Finais
+
+**Período:** 1 semana e meia
+**Entregas:**
+
+* Plano de testes não funcionais (desempenho, confiabilidade, segurança, etc.);
+* Execução de testes com JMeter:
+
+  * Cenários de carga;
+  * Medição dos tempos;
+* Logs e monitoramento:
+
+  * Registro de ações relevantes (data/hora + usuário + ação);
+  * Métricas de tempo de resposta e taxa de erros.
+
+---
+
+### Etapa 6 — Lançamento, Marketing Inicial e Suporte Assistido
+
+**Período:** 1 mês
+**Entregas:**
+
+* Lançamento público controlado (beta aberta) do DuYu;
+* Landing page do produto com foco em captação de usuários;
+* Primeiras ações de marketing (divulgação em redes sociais, grupos acadêmicos e comunidades);
+* Acompanhamento de métricas-chave (usuários ativos, listas criadas, engajamento);
+* Coleta e registro de feedbacks dos usuários em backlog priorizado;
+* Suporte assistido à operação (correção de bugs, pequenos ajustes de UX e melhorias rápidas).
 
 ---
 
@@ -163,50 +189,80 @@ Entregas:
 
 ### 4.1 Quantas pessoas por especialidade
 
-- Cenário real (time de 5 pessoas):
-  - 2 pessoas com foco backend;
-  - 2 pessoas com foco frontend/UX;
-  - 1 pessoa com foco em QA/DevOps/documentação. 
+* Cenário real (time de 5 pessoas):
+
+  * 2 pessoas com foco **backend**;
+  * 2 pessoas com foco **frontend/UX**;
+  * 1 pessoa com foco em **QA/DevOps/documentação**.
+
 ---
 
 ## 5. Estratégias para Manter a Equipe Motivada e Unida
 
-Os investidores vão querer saber como vocês vão fazer o time não desmontar no meio do projeto. Sugestão de pontos pra colocar no relatório:
+Os investidores vão querer saber como vocês vão fazer o time **não desmontar no meio do projeto**. Pontos para destacar:
 
-1. Reunião rápida semanal (ou 2x por semana):
-   - 15–20 minutos;
-   - O que fiz desde a última reunião, o que vou fazer agora, bloqueios.
-2. Metas claras por sprint/entrega:
-   - Cada etapa do cronograma tem um conjunto pequeno de objetivos bem definidos.
-3. Reconhecimento interno:
-   - Celebrar entregas importantes (fechar MVP, subir deploy, rodar testes com sucesso);
-   - Bônus por entrega;
-   - Dar crédito em commits/issues e nas apresentações.
-4. Ambiente seguro pra errar e aprender:
-   - Problema = oportunidade de melhoria;
-   - Programação em conjunto quando alguém estiver travado.
-5. Transparência com os investidores:
-   - Relatórios curtos de progresso;
-   - Mostrar o que funcionou e o que não funcionou;
-   - Ajustar escopo se algo estiver impossível no tempo.
-6. Divisão de tarefas equilibrada:
-   - Evitar sobrecarregar sempre a mesma pessoa;
-   - Rotação de tarefas (todo mundo tem chance de aprender backend, frontend, testes).
+1. **Reunião rápida semanal (ou 2x por semana):**
+
+   * 15–20 minutos;
+   * O que fiz desde a última reunião, o que vou fazer agora, bloqueios.
+
+2. **Metas claras por sprint/entrega:**
+
+   * Cada etapa do cronograma tem um conjunto pequeno de objetivos bem definidos.
+
+3. **Reconhecimento interno:**
+
+   * Celebrar entregas importantes (fechar MVP, subir deploy, rodar testes com sucesso);
+   * Bônus por entrega;
+   * Dar crédito em commits/issues e nas apresentações.
+
+4. **Ambiente seguro pra errar e aprender:**
+
+   * Problema = oportunidade de melhoria;
+   * Programação em conjunto quando alguém estiver travado.
+
+5. **Transparência com os investidores:**
+
+   * Relatórios curtos de progresso;
+   * Mostrar o que funcionou e o que não funcionou;
+   * Ajustar escopo se algo estiver impossível no tempo.
+
+6. **Divisão de tarefas equilibrada:**
+
+   * Evitar sobrecarregar sempre a mesma pessoa;
+   * Rotação de tarefas (todo mundo tem chance de aprender backend, frontend, testes).
 
 ---
 
 ## 6. Quanto vocês querem de dinheiro?
 
-- Total pedido: R$ 60.000,00 para 6 meses.
+* **Total pedido:** **R$ 80.000,00** para um período entre **6 e 10 meses**.
 
-Distribuição:
+### 6.1 Distribuição do investimento
 
-- R$ 40.000,00 — Bolsa/ajuda de custo para o time (5 pessoas) ao longo do desenvolvimento;
-- R$ 8.000,00 — Infraestrutura:
-  - Hospedagem, banco de dados, e-mail transacional, domínio, ferramentas adicionais, etc;
-- R$ 7.000,00 — Marketing e aquisição de usuários (landing page, anúncios iniciais, material visual);
-- R$ 5.000,00 — Reserva de risco/contingência (ajustes de infraestrutura, imprevistos).
---
+* **R$ 60.000,00 — Bolsa/ajuda de custo para o time (5 pessoas)**
+
+  * Distribuição **igualitária**:
+
+    * R$ 60.000,00 ÷ 5 = **R$ 12.000,00 por pessoa** no total do projeto.
+  * Em termos de valor mensal (para dar noção aos investidores):
+
+    * Cenário **mínimo (6 meses)**: cerca de **R$ 2.000,00/mês por pessoa**;
+    * Cenário **máximo (10 meses)**: cerca de **R$ 1.200,00/mês por pessoa**
+      (mesmo total por pessoa, apenas diluído em mais meses caso o projeto se estenda).
+
+* **R$ 8.000,00 — Infraestrutura:**
+
+  * Hospedagem, banco de dados, e-mail transacional, domínio, ferramentas adicionais, monitoramento etc.
+
+* **R$ 7.000,00 — Marketing e aquisição de usuários:**
+
+  * Landing page, anúncios iniciais, material visual, identidade visual mínima.
+
+* **R$ 5.000,00 — Reserva de risco/contingência:**
+
+  * Ajustes de infraestrutura, aumento pontual de custos, necessidade de novas ferramentas, imprevistos.
+
 
 ## Navegação rápida (docs)
 
