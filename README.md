@@ -33,7 +33,7 @@ O **DuYu** é um aplicativo de checklist simples e colaborativo para criar lista
 | When     | Quando será feito e quais marcos de entrega? | Ciclo previsto entre **6 e 10 meses** (mínimo 6 meses de desenvolvimento ativo, com possibilidade de se estender até 10 meses em caso de pendências), com entregas parciais.      |
 | Who      | Quem está envolvido?                         | Time de 5 integrantes (devs, UI/UX, QA), professores, possíveis usuários-teste e investidores-anjo (Anjos do Brasil).                                                             |
 | How      | Como será feito (método e tecnologia)?       | Desenvolvimento incremental (estilo ágil), backend + frontend separados, integração contínua, testes, monitoramento.                                                              |
-| How much | Quanto vai custar (estimativa)?              | Investimento estimado em **R$ 80.000,00** para 6 a 10 meses (bolsas para o time, infraestrutura em nuvem, ferramentas e marketing inicial, com reserva para riscos/contingência). |
+| How much | Quanto vai custar (estimativa)?              | Investimento estimado em **R$ 150.000,00** para 6 a 10 meses (bolsas para o time, infraestrutura em nuvem, ferramentas e marketing inicial, com reserva para riscos/contingência). |
 
 ### 2.2 Detalhando cada ponto
 
@@ -84,9 +84,8 @@ O **DuYu** é um aplicativo de checklist simples e colaborativo para criar lista
 ## 3. When — Cronograma
 
 > **Prazo global do projeto:**
->
 > * **Tempo mínimo:** 6 meses (se tudo for entregue conforme o cronograma base);
-> * **Tempo máximo:** até 10 meses (cenário hipotético com atraso de algumas pendências), **sem alterar a ordem das etapas**.
+> * **Tempo máximo:** até 10 meses (cenário hipotético com atraso de algumas pendências).
 
 ### Etapa 1 — Kickoff, Alinhamento e Planejamento Detalhado
 
@@ -236,30 +235,28 @@ Os investidores vão querer saber como vocês vão fazer o time **não desmontar
 
 ## 6. Quanto vocês querem de dinheiro?
 
-* **Total pedido:** **R$ 80.000,00** para um período entre **6 e 10 meses**.
+* **Total pedido:** **R$ 150.000,00** para um período entre **6 e 10 meses**.
 
 ### 6.1 Distribuição do investimento
 
-* **R$ 60.000,00 — Bolsa/ajuda de custo para o time (5 pessoas)**
+* **R$ 110.000,00 — Bolsa/ajuda de custo para o time (5 pessoas)**
 
   * Distribuição **igualitária**:
 
-    * R$ 60.000,00 ÷ 5 = **R$ 12.000,00 por pessoa** no total do projeto.
-  * Em termos de valor mensal (para dar noção aos investidores):
+    * R$ 110.000,00 ÷ 5 = **R$ 22.000,00 por pessoa** no total do projeto.
+  * Em termos de valor mensal:
+    * Cenário **mínimo (6 meses)**: cerca de **R$ 3.600,00/mês por pessoa**;
+    * Cenário **máximo (10 meses)**: cerca de **R$ 2.200,00/mês por pessoa**.
 
-    * Cenário **mínimo (6 meses)**: cerca de **R$ 2.000,00/mês por pessoa**;
-    * Cenário **máximo (10 meses)**: cerca de **R$ 1.200,00/mês por pessoa**
-      (mesmo total por pessoa, apenas diluído em mais meses caso o projeto se estenda).
-
-* **R$ 8.000,00 — Infraestrutura:**
+* **R$ 15.000,00 — Infraestrutura:**
 
   * Hospedagem, banco de dados, e-mail transacional, domínio, ferramentas adicionais, monitoramento etc.
 
-* **R$ 7.000,00 — Marketing e aquisição de usuários:**
+* **R$ 15.000,00 — Marketing e aquisição de usuários:**
 
   * Landing page, anúncios iniciais, material visual, identidade visual mínima.
 
-* **R$ 5.000,00 — Reserva de risco/contingência:**
+* **R$ 10.000,00 — Reserva de risco/contingência:**
 
   * Ajustes de infraestrutura, aumento pontual de custos, necessidade de novas ferramentas, imprevistos.
 
