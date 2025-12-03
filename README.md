@@ -248,11 +248,11 @@ Os investidores vão querer saber como vocês vão fazer o time **não desmontar
     * Cenário **mínimo (6 meses)**: cerca de **R$ 3.600,00/mês por pessoa**;
     * Cenário **máximo (10 meses)**: cerca de **R$ 2.200,00/mês por pessoa**.
 
-* **R$ 15.000,00 — Infraestrutura:**
+* **R$ 10-15.000,00 — Infraestrutura:**
 
   * Hospedagem, banco de dados, e-mail transacional, domínio, ferramentas adicionais, monitoramento etc.
 
-* **R$ 15.000,00 — Marketing e aquisição de usuários:**
+* **R$ 10.000,00 — Marketing e aquisição de usuários:**
 
   * Landing page, anúncios iniciais, material visual, identidade visual mínima.
 
