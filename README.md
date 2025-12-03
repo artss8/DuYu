@@ -198,7 +198,7 @@ O **DuYu** é um aplicativo de checklist simples e colaborativo para criar lista
 
 ## 5. Estratégias para Manter a Equipe Motivada e Unida
 
-Os investidores vão querer saber como vocês vão fazer o time **não desmontar no meio do projeto**. Pontos para destacar:
+Os investidores vão querer saber como vocês vão fazer o time **não desmontar no meio do projeto**:
 
 1. **Reunião rápida semanal (ou 2x por semana):**
 
