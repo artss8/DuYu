@@ -1,0 +1,14 @@
+body {
+    background-color: #efd6ac;
+    /*#183a37*/
+    /*#c44900*/
+    /*#432534 */
+    /*#04151f */
+    /*#183a37 */
+
+}
+.main-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
