@@ -91,7 +91,3 @@ src/
 - [x] Delete tasks
 - [x] Persist data with SQLite
 - [ ] Create custom categories / projects
-
-## License
-
-MIT
