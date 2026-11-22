@@ -66,11 +66,56 @@ body {
     transition: color 0.2s ease;
 }
 
+/* checkbox customizado */
 .task-container li input[type="checkbox"] {
-    accent-color: #653eff;
-    width: 16px;
-    height: 16px;
+    appearance: none;
+    margin: 0;
+    flex-shrink: 0;
+    width: 18px;
+    height: 18px;
+    border: 2px solid #4A4A55;
+    border-radius: 5px;
     cursor: pointer;
+    display: grid;
+    place-content: center;
+    transition: background-color 0.15s, border-color 0.15s;
+}
+
+.task-container li input[type="checkbox"]:hover {
+    border-color: #653eff;
+}
+
+.task-container li input[type="checkbox"]:checked {
+    background-color: #653eff;
+    border-color: #653eff;
+}
+
+.task-container li input[type="checkbox"]:checked::after {
+    content: '';
+    width: 4px;
+    height: 9px;
+    border: solid white;
+    border-width: 0 2px 2px 0;
+    transform: rotate(45deg) translate(-1px, -1px);
+}
+
+/* lixeira */
+.btn-remove {
+    margin-left: auto;
+    display: flex;
+    align-items: center;
+    background: none;
+    border: none;
+    padding: 6px;
+    border-radius: 6px;
+    color: #5A5A64;
+    cursor: pointer;
+    transition: color 0.15s, background-color 0.15s;
+}
+
+.btn-remove:hover {
+    color: #FF5C5C;
+    background-color: rgba(255, 92, 92, 0.1);
 }
 
 .task-container li.done {
@@ -109,4 +154,42 @@ body {
     border-radius: 6px;
     color: #653eff;
     font-family: 'Montserrat';
+}
+
+.category-input{
+    border-radius: 5px;
+    cursor:pointer;
+    font-family: 'Inter';
+}
+
+.message-popup {
+    position: fixed;
+    top: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 10;
+
+    background-color: #1A1A1F;
+    color: #EDEDED;
+    border: 1px solid #2A2A31;
+    border-left: 4px solid #653eff;
+    border-radius: 8px;
+    padding: 12px 20px;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.4);
+
+    font-family: 'Inter';
+    font-size: 14px;
+
+    animation: message-in 0.25s ease-out;
+}
+
+@keyframes message-in {
+    from {
+        opacity: 0;
+        transform: translate(-50%, -10px);
+    }
+    to {
+        opacity: 1;
+        transform: translate(-50%, 0);
+    }
 }
