@@ -1,0 +1,112 @@
+@font-face {
+    font-family:'Inter';
+    src: url("Inter-VariableFont_opsz,wght.ttf") format('truetype'), url('Inter-Italic-VariableFont_opsz,wght.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url('Montserrat-VariableFont_wght.ttf') format('truetype'), url('Montserrat-Italic-VariableFont_wght.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+body {
+    background-color: #0F0F12;
+
+
+}
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Inter';
+    color: #EDEDED;
+}
+
+.main-container { 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap:16px;
+}
+
+.add-task-container {
+    width: 100%;
+    max-width: 500px;
+    display: flex;
+}
+
+.task-container {
+    width: 100%;
+    max-width: 500px;
+    box-sizing: border-box;
+    background-color: #1A1A1F;
+    border: 1px solid #2A2A31;
+    border-radius: 8px;
+    padding: 8px 16px;
+    color: #EDEDED;
+    font-family: 'Inter';
+}
+
+.task-container ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.task-container li {
+    padding: 10px 0;
+    border-bottom: 1px solid #2A2A31;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    transition: color 0.2s ease;
+}
+
+.task-container li input[type="checkbox"] {
+    accent-color: #653eff;
+    width: 16px;
+    height: 16px;
+    cursor: pointer;
+}
+
+.task-container li.done {
+    color: #8A8A93;
+    text-decoration: line-through;
+}
+
+.task-container li:last-child {
+    border-bottom: none;
+}
+
+.btn-add {
+    background-color: #653eff;
+    color: white;
+    border: none;
+    padding: 12px 24px;
+    border-radius: 5px;
+    margin-left: 4px;
+    font-size: 15px;
+    font-family: 'Montserrat';
+    transition: background-color 0.3s ease-in-out;
+    cursor: pointer;
+}
+
+.btn-add:hover {
+    background-color: #4e22ff;
+    
+}
+
+.task-input {
+    flex: 1;
+    padding: 13px 20px;
+    display: inline-block;
+    border: 1px solid #653eff;
+    box-sizing: border-box;
+    border-radius: 6px;
+    color: #653eff;
+    font-family: 'Montserrat';
+}
