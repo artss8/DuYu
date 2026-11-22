@@ -50,6 +50,3 @@ src/
 - [ ] Delete tasks
 - [ ] Persist data with SQLite
 - [ ] Create custom categories / projects
-
-## License
-
